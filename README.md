@@ -13,4 +13,4 @@ And after that
 npm start
 ```
 
-Access to project via localhost:8080
+Access to project via localhost:8000
