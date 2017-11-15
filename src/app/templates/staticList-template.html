@@ -1,0 +1,17 @@
+<div ng-controller="StaticListCtrl">
+    <md-divider></md-divider>
+    <md-button class="md-raised copy-btn" ng-click="copy()">Copy to Clipboard</md-button>
+    <md-list ng-cloak class="todo-list-2">
+        <md-subheader class="md-no-sticky">ToDo List</md-subheader>
+        <md-list-item class="bold-text list-item">
+            <p style="text-align: left">Name</p>
+            <p style="text-align: center">Description</p>
+            <p style="text-align: right">Done</p>
+        </md-list-item>
+        <md-list-item ng-repeat="item in items track by $index" class="list-item">
+            <p style="text-align: left">{{ item.name }}</p>
+            <p style="text-align: center">{{ item.description }}</p>
+            <p style="text-align: right">{{item.done | changeBoolean}}</p>
+        </md-list-item>
+    </md-list>
+</div>

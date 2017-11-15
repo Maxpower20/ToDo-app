@@ -1,0 +1,67 @@
+.menu {
+    margin: 15px;
+}
+
+.todo-list {
+    width: 70%;
+    margin:0 auto;
+    background: bisque;
+}
+
+.todo-list-2 {
+    width: 70%;
+    margin:0 auto;
+    background: #f8ffe1;
+}
+
+md-list .md-subheader{
+    font-size: 20px;
+    background: #f7d175;
+}
+
+.list-item {
+    border:1px solid #906400;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.name-input {
+    width: 100vh;
+    margin:0 auto;
+}
+
+.create-btn {
+    background: rgb(129, 245, 120);
+    width: 10%;
+    left: 45%;
+}
+
+.clear-btn {
+    background: rgb(245, 103, 85);
+    width: 10%;
+    left: 45%;
+}
+
+.copy-btn {
+    width: 10%;
+    left: 45%;
+}
+
+.input-container {
+    width: 70%;
+    margin:0 auto;
+    padding: 20px;
+}
+
+.delete-icon {
+    cursor: pointer;
+}
+
+.disable-md-clickable .md-ripple-container {
+    display: none;
+    cursor: default;
+}
+
+.bold-text p {
+    font-weight: bold;
+}
