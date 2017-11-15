@@ -6,6 +6,10 @@ Create with use of AngularJS, AngularFire and FireBase
 
 From Application folder run:
 ```
+npm install
+```
+And after that
+```
 npm start
 ```
 
